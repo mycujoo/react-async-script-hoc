@@ -2,9 +2,11 @@
 Load 3rd party scripts and styles from a url in a higher order component
 
 ##Installation
-`yarn add react-async-hoc`
+
+`yarn add react-async-script-hoc`
 
 ## What's it do
+
 This is a simple little higher-order component (HOC) for loading scripts from a url
 and giving it to you in props instead of `window`.
 Some 3rd party vendors don't make npm packages for their scripts & you must load them from a url.
