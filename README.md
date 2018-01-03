@@ -1,7 +1,7 @@
 # react-async-hoc
 Load 3rd party scripts and styles from a url in a higher order component
 
-##Installation
+## Installation
 
 `yarn add react-async-script-hoc`
 
