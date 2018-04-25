@@ -25,6 +25,8 @@ const requestedUrls = new Set();
 export default (fetchScripts, fetchStyles) => ComposedComponent => {
   return class WithAsync extends Component {
 
+    static ComposedComponent = ComposedComponent
+
     state = {};
 
     loopUrls = (type) => {
