@@ -15,7 +15,7 @@ const loadCSS = (url) => new Promise((resolve, reject) => {
   linkElement.setAttribute('rel', 'stylesheet');
   linkElement.setAttribute('type', 'text/css');
   linkElement.setAttribute('href', url);
-  document.head.appendChild(linkElement);
+  document.head.insertBefore(linkElement, document.head.children[0]);
   linkElement.onload = resolve;
   linkElement.onerror = reject;
 });
